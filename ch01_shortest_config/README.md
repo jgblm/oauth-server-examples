@@ -19,7 +19,7 @@ Host: localhost:9000
 Content-Type: application/x-www-form-urlencoded
 Authorization: Basic b2lkYy1jbGllbnQ6c2VjcmV0
 
-grant_type=authorization_code&code={{code}}&redirect_uri=http%3A%2F%2F127.0.0.1%3A8080%2Flogin%2Foauth2%2Fcode%2Foidc-client
+grant_type=authorization_code&code={{code}}&redirect_uri=http://127.0.0.1:8080/login/oauth2/code/oidc-client
 ```
 
 以上的Authorization中的值是clientId clientSecre通过base64编码得到，即basicAuth的方式，用户名是clientId，密码是clientSecret。
