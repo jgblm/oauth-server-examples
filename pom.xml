@@ -23,6 +23,7 @@
 	</developers>
 	<modules>
 		<module>ch01_shortest_config</module>
+		<module>ch02_component_config</module>
 	</modules>
 	<scm>
 		<connection/>
